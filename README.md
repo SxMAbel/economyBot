@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/SxMAbel/economyBot-PrivateVersion">
+  <a href="https://github.com/SxMAbel/economyBot">
     <img src="https://cdn.discordapp.com/attachments/939206020092285028/982478486344196096/IMG_1673.png" alt="Pbot-plus" width="200" height="200">
   </a>
 
@@ -13,9 +13,9 @@
     <br />
     <a href="">Invite Eco+</a>
     ||
-    <a href="https://github.com/SxMAbel/economyBot-PrivateVersion/issues">Report Bug</a>
+    <a href="https://github.com/SxMAbel/economyBot/issues">Report Bug</a>
     ||
-    <a href="https://github.com/SxMAbel/economyBot-PrivateVersion/issues">Request Feature</a>
+    <a href="https://github.com/SxMAbel/economyBot/issues">Request Feature</a>
   </p>
 </p>
 
@@ -27,8 +27,9 @@ A Tutorial has been uploaded on YouTube, Watch it by clicking [here](https://www
 
 ## 🎭 Features
 
-- [•] SlashCommand
+- [•] Slash Commands
 - [•] Custom prefix
+- [•] Mongoose database
 - [•] Easy to use
 - [•] Many more!
 
@@ -36,7 +37,7 @@ A Tutorial has been uploaded on YouTube, Watch it by clicking [here](https://www
 ## 🖼️ Screenshots
 <br />
 <p align="center">
-  <a href="https://github.com/SxMAbel/economyBot-PrivateVersion">
+  <a href="https://github.com/SxMAbel/economyBot">
     <img src="https://cdn.discordapp.com/attachments/969854833412681738/978616898977693706/unknown.png">    
     <img src="https://cdn.discordapp.com/attachments/969854833412681738/978616898977693706/unknown.png">
     <img src="https://cdn.discordapp.com/attachments/969854833412681738/978616898977693706/unknown.png">
@@ -63,7 +64,7 @@ A Tutorial has been uploaded on YouTube, Watch it by clicking [here](https://www
 <!-- INSTALL -->
 ## 🚀 Installation from source
 ```
-git clone https://github.com/SxMAbel/economyBot-PrivateVersion.git
+git clone https://github.com/SxMAbel/economyBot.git
 ```
 After cloning, run an
 ```
@@ -81,6 +82,7 @@ npm install
 - edit in `src/config.js` or you can edit in `.env` 
 ```js
     token: process.env.TOKEN || "", // Your Bot's Token
+    mongourl: process.env.MONGOURL || "", // Mongo database cluster login url here
     embedColor: process.env.EMBEDCOLOR || "#ff7f50", // Embed Color
     guildCreateLogs: process.env.GUILDCREATELOGS || "939505896780857384", // Channel ID of the channel to send when the bot is added to a server
     guildDeleteLogs: process.env.GUILDDELETELOGS || "939505897837834301", // Channel ID of the channel to send when the bot is removed from a server
@@ -109,8 +111,8 @@ If you liked this repository, feel free to leave a star ⭐ to help promote !
 
 ## 🤝 Contributing
 
-1. [Fork the repository](https://github.com/SxMAbel/economyBot-PrivateVersion/fork)
-2. Clone your fork: `git clone https://github.com/your-username/economyBot-PrivateVersion.git`   
+1. [Fork the repository](https://github.com/SxMAbel/economyBot/fork)
+2. Clone your fork: `git clone https://github.com/your-username/economyBot.git`   
 3. Create your feature branch: `git checkout -b my-new-feature`
 4. Stage changes `git add .`
 5. Commit your changes: `cz` OR `npm run commit` do not use `git commit`

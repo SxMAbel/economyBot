@@ -3,6 +3,7 @@
  */
 module.exports = {
     token: process.env.TOKEN || "OTc3OTc4MjYwODgzMzg2Mzg4.Gym-7v.9qYyzjOYvfsr34LdvIkH5WjnP3QsCb9bBxrzgA", // Your Bot's Token
+    mongourl: process.env.MONGOURL || "", // Mongo database cluster login url here
     prefix: process.env.PREFIX || "-", // Bot Prefix
     embedColor: process.env.EMBEDCOLOR || "#ff7f50", // Embed Color
     guildCreateLogs: process.env.GUILDCREATELOGS || "939505896780857384", // Channel ID of the channel to send when the bot is added to a server
